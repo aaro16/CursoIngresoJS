@@ -4,17 +4,27 @@ mostrar el resto entre el dividendo y el divisor.
 ej.: "El resto es 0 ."*/
 function SacarResto()
 {
-	
-resultado = 10 % 2 ;
 
-alert(resultado) ;
+var dividendo
+var divisor 
+var dato1
+var dato2
+var total
+var resto
 
-resultado = 2 % 10 ;
+dividendo= document.getElementById('numeroDividendo').value;
 
-alert(resultado) ;
+divisor =document.getElementById('numeroDivisor').value;
+
+dato1 =parseInt(dividendo) ;
+dato2 =parseInt(divisor) ;
+
+total = dato1 % dato2 ;
+
+
+alert("el resto es " +total) ;
+
 
 }
 
 
-/* el porcentaje en programacion se le llama modulo.
-sirve para mostar el resto */
