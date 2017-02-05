@@ -4,12 +4,16 @@
 */
 function Mostar()
 {
-	
-	var minombre = prompt("mi nombre") ;
-	document.getElementById('elNombre').value = minombre ;
+	var nombre ;
 
-/* con: document.getElementById , puedo tomar o 
-mostrar datos a diferencia del alert o prompt
+	nombre = prompt("Ingrese su nombre") ;
+
+document.getElementById('elNombre').value = nombre ;
+
+/* para ejecutar el document.getElementById tengo q poner
+el ID , siempre recordar poner el .value 
+y convertir el document.getElementById en un variable o asignarlo
+en una variable
 
 */
 }
